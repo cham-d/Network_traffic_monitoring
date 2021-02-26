@@ -25,7 +25,7 @@ III. COMMAND LINE ARGUMENTS EXAMPLES
  ```sh sudo monitor -i <Device> ```<br />
  ```sh sudo monitor -r <file_name> ```<br />
 
-IV. EXTRA INFORMATION/ANSWERS FOR QUESTIONS 9 & 10
+IV. EXTRA INFOS
 ------------
 
 When we have a TCP packet,we can tell if it is retransmitted base on its sequency number.
