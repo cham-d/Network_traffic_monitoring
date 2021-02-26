@@ -2,7 +2,7 @@
 # A network traffic monitoring tool using the Packet Capture library
 ### General Info
 ------------
-The main part of the Assignment_6 is to create a tool that:
+The main part of this Assignment is to create a tool that:
 - Captures in real time packets drom an intenet device.
 - Capture packets from an input file.
 - Print some statistics about the captured packets.
