@@ -1,10 +1,3 @@
-************************
-*CHAMAROUSIOS_DIMITRIOS*
-*A.M.: 2015030090      *
-*Assignment_6          *
-************************
-
-*****THE WHOLE PROJECT RUNS PERFECT.******
 
 ### General Info
 ------------
