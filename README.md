@@ -6,7 +6,7 @@ The main part of the Assignment_6 is to create a tool that:
 - Capture packets from an input file.
 - Print some statistics about the captured packets.
 
-I. File list
+I. FILE LIST
 ------------
 - README                         This file.
 - monitor.c                      The actual tool that captures packets.
