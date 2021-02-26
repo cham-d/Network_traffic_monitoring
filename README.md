@@ -8,18 +8,18 @@
 
 ### General Info
 ------------
-	The main part of the Assignment_6 is to create a tool that:
-* Captures in real time packets drom an intenet device.
-* Capture packets from an input file.
-* Print some statistics about the captured packets.
+The main part of the Assignment_6 is to create a tool that:
+- Captures in real time packets drom an intenet device.
+- Capture packets from an input file.
+- Print some statistics about the captured packets.
 
 I. File list
 ------------
-* README                         This file.
-* monitor.c                      The actual tool that captures packets.
-* MakeFile                       MakeFile,everyone knows it :).
-* listLib.c                      A library that helps the main tool keep track of its statistics.
-* listLib.h
+- README                         This file.
+- monitor.c                      The actual tool that captures packets.
+- MakeFile                       MakeFile,everyone knows it :).
+- listLib.c                      A library that helps the main tool keep track of its statistics.
+- listLib.h
   
 II. INSTALLATION
 ------------
