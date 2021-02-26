@@ -9,18 +9,17 @@
 ### General Info
 ------------
 	The main part of the Assignment_6 is to create a tool that:
---> Captures in real time packets drom an intenet device.
---> Capture packets from an input file.
---> Print some statistics about the captured packets.
+* Captures in real time packets drom an intenet device.
+* Capture packets from an input file.
+* Print some statistics about the captured packets.
 
 I. File list
 ------------
-README                         This file.
-monitor.c                      The actual tool that captures packets.
-MakeFile                       MakeFile,everyone knows it :).
-EXTRA_FILES:
-listLib.c                      A library that helps the main tool keep track of its statistics.
-listLib.h
+* README                         This file.
+* monitor.c                      The actual tool that captures packets.
+* MakeFile                       MakeFile,everyone knows it :).
+* listLib.c                      A library that helps the main tool keep track of its statistics.
+* listLib.h
   
 II. INSTALLATION
 ------------
@@ -30,13 +29,13 @@ II. INSTALLATION
 III. COMMAND LINE ARGUMENTS EXAMPLES
 ------------
 
- sudo monitor -i <Device>
- sudo monitor -r <file_name> 
+ ```sh sudo monitor -i <Device> ```<br />
+ ```sh sudo monitor -r <file_name> ```<br />
 
 IV. EXTRA INFORMATION/ANSWERS FOR QUESTIONS 9 & 10
 ------------
 
-    When we have a TCP packet,we can tell if it is retransmitted base on its sequency number.
+When we have a TCP packet,we can tell if it is retransmitted base on its sequency number.
 If the seq_number of a captured TCP packet is smaller than the seq_number of the previous non-retransmitted
 packet,then the packet is retransmitted.
     However we can't tell if a UDP packet is retransmitted,because the delivery of data to the destination cannot be guaranteed in UDP.
